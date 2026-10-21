@@ -1,0 +1,6 @@
+@RoadBuilderLaboratories.API_HostAddress = http://localhost:5148
+
+GET {{RoadBuilderLaboratories.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBuilderLaboratories.Infrastructure", "src\RoadBuilderLaboratories.Infrastructure\RoadBuilderLaboratories.Infrastructure.csproj", "{BC748AB8-0DEB-4B33-A1EF-A0CBBEAA28CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBuilderLaboratories.Domain", "src\RoadBuilderLaboratories.Domain\RoadBuilderLaboratories.Domain.csproj", "{D29D6912-69FC-44A5-A9C4-278BEC46645F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBuilderLaboratories.Application", "src\RoadBuilderLaboratories.Application\RoadBuilderLaboratories.Application.csproj", "{B61C10F7-3008-4AEE-BE83-633F2DE27E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadBuilderLaboratories.API", "src\RoadBuilderLaboratories.API\RoadBuilderLaboratories.API.csproj", "{5A386EC2-2739-4FDE-B87D-0DABD49F3415}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B61C10F7-3008-4AEE-BE83-633F2DE27E59} = {B61C10F7-3008-4AEE-BE83-633F2DE27E59}
+		{D29D6912-69FC-44A5-A9C4-278BEC46645F} = {D29D6912-69FC-44A5-A9C4-278BEC46645F}
+		{BC748AB8-0DEB-4B33-A1EF-A0CBBEAA28CB} = {BC748AB8-0DEB-4B33-A1EF-A0CBBEAA28CB}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC748AB8-0DEB-4B33-A1EF-A0CBBEAA28CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC748AB8-0DEB-4B33-A1EF-A0CBBEAA28CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC748AB8-0DEB-4B33-A1EF-A0CBBEAA28CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC748AB8-0DEB-4B33-A1EF-A0CBBEAA28CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29D6912-69FC-44A5-A9C4-278BEC46645F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29D6912-69FC-44A5-A9C4-278BEC46645F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29D6912-69FC-44A5-A9C4-278BEC46645F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29D6912-69FC-44A5-A9C4-278BEC46645F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B61C10F7-3008-4AEE-BE83-633F2DE27E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B61C10F7-3008-4AEE-BE83-633F2DE27E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B61C10F7-3008-4AEE-BE83-633F2DE27E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B61C10F7-3008-4AEE-BE83-633F2DE27E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A386EC2-2739-4FDE-B87D-0DABD49F3415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A386EC2-2739-4FDE-B87D-0DABD49F3415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A386EC2-2739-4FDE-B87D-0DABD49F3415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A386EC2-2739-4FDE-B87D-0DABD49F3415}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
